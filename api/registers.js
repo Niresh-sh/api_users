@@ -2,7 +2,7 @@ const Joi = require('joi');
 const express = require('express');
 const app = express();
 const fs = require('fs');
-let registers = require('./registers.json'); // Use 'let' so we can modify it
+let registers = require('../registers.json'); // Use 'let' so we can modify it
 const cors = require('cors');
 
 app.use(cors());
